@@ -1,0 +1,101 @@
+#main{
+    background-image:url('../images/fondo1.png');
+    background-position:center;
+    background-size:cover;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#logo {
+    width: 100px;
+}
+
+.devocional {
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	font-weight: bold;
+}
+
+.devocional__id {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.devocional__fecha {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.devocional__titulo {
+	width: 100%;
+	margin-top: 15px;
+	padding: 0 10px;
+}
+
+.devocional__subtitulo {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.devocional__cuerpo {
+	padding: 0 10px;
+
+	text-align: justify;
+	line-height: 25px;
+}
+
+.social-bar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.social-bar img {
+	width: 40px;
+	height: 40px;
+	margin-left: 8px;
+}
+#ir_devocionales{
+	color: #14012E;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.paginas {
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.paginas a {
+	width: 30px;
+	height: 30px;
+	line-height: 27px;
+	margin-top: 50px;
+	background-color: #fff;
+	text-decoration: none;
+	color: #333;
+	border-radius: 15px;
+}
+
+#next {
+	margin-left: auto;
+}

@@ -1,0 +1,48 @@
+@import url(normalize.css);
+@font-face {
+    font-family:futura;
+    src:url('../fonts/futura/futura medium bt.ttf')
+}
+
+@font-face {
+    font-family:helvetica-lt-std-bold;
+    src:url('../fonts/helvetica/helvetica-lt-std/HelveticaLTStd-Bold.otf')
+}
+@font-face {
+    font-family:josefin-sans;
+    src:url('../fonts/josefin-sans/JosefinSans-Regular.ttf')
+}
+
+.social{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    margin-bottom:10px
+}
+
+.social_facebook img{width:10px;margin-right:15px}
+.social_instagram img{width:22px}
+
+body{font-family:josefin-sans}
+
+footer{
+    text-align:center;
+    background-color:#666;
+    color:#fff;
+    min-height:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center
+}
+footer a {
+    color: #eee;
+    font-size: 12px;
+    text-decoration: none;
+}
+footer a:hover {color: #eee}
+
+img[alt*="000webhost"]{display:none}
+.btn-registrate{background-color:#79DEA0;font-style:italic;font-weight:700}
+.btn-registrate:hover{background-color:#53bc78!important}
